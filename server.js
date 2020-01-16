@@ -23,7 +23,7 @@ app.get('/', function(req, res, next) {
 app.post('/liff', function(req, res, next) {
     var options = {
         method: 'POST',
-        uri: 'https:/damp-bayou-88423.herokuapp.com/liff',
+        uri: 'https:/lastwebservice.herokuapp.com/test',
         json: true
     };
 
