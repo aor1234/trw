@@ -23,7 +23,7 @@ app.get('/', function(req, res, next) {
 app.post('/liff', function(req, res, next) {
     var options = {
         method: 'POST',
-        uri: 'https://31f523c5.ngrok.io/test',
+        uri: 'https://lastwebservice.herokuapp.com/test',
         json: true
     };
 
